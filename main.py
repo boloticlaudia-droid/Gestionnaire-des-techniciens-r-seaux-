@@ -25,6 +25,9 @@ CREATE TABLE IF NOT EXISTS techniciens (
 
 connexion.commit()
 
+connexion.close()
+
+
 
 
 
