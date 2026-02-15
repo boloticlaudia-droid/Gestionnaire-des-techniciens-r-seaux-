@@ -38,9 +38,10 @@ label1=tk.Label(frame1,text="Nom",font="Anton 18",bg="gray")
 label1.place(x=3,y=7)
 
 zone1=tk.Entry(frame1,bg="white")
-zone1.place(x=100,y=14)
+zone1.place(x=110,y=14)
 
 
-
+label2=tk.Label(frame1,text="Prénom",font="Anton 18",bg="gray")
+label2.place(x=3,y=43)
 
 app.mainloop()
