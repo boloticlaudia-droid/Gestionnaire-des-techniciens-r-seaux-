@@ -31,12 +31,14 @@ app=tk.Tk()
 app.geometry("800x600")
 app.title("Gestionnaire des techniciens")
 
-frame1=tk.LabelFrame(app,text="Informations Techniciens",width=500,height=380,bg="white",fg="black",font="Anton 10")
+frame1=tk.LabelFrame(app,text="Informations Techniciens",width=500,height=380,bg="gray",fg="black",font="Anton 10")
 frame1.place(x=10,y=15)
 
-label1=tk.Label(frame1,text="Nom",font="Anton 18",bg="white")
+label1=tk.Label(frame1,text="Nom",font="Anton 18",bg="gray")
 label1.place(x=3,y=7)
 
+zone1=tk.Entry(frame1,bg="white")
+zone1.place(x=100,y=14)
 
 
 
