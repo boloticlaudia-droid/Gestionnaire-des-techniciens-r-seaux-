@@ -88,4 +88,10 @@ zone7.place(x=120,y=250)
 label8=tk.Label(app,text="Domaine",font="Anton 11",bg="white")
 label8.place(x=7,y=285)
 
+check_var1=tk.IntVar()
+check_var2=tk.IntVar()
+check_var3=tk.IntVar()
+check_var4=tk.IntVar()
+
+
 app.mainloop()
