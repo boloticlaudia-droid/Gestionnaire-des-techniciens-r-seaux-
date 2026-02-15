@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS techniciens (
     nom TEXT NOT NULL,
     prenom TEXT NOT NULL,
     age INTEGER,
+    sexe TEXT CHECK(sexe IN ('H','F')) NOT NULL,
     specialite TEXT,
     niveau_etude TEXT,
     experience INTEGER,
