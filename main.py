@@ -27,17 +27,15 @@ connexion.commit()
 
 connexion.close()
 
-
-
-
-
-
-
-
-
-
 app=tk.Tk()
 app.geometry("800x600")
 app.title("Gestionnaire des techniciens")
+
+frame1=tk.LabelFrame(app,text="Informations Techniciens",width=500,height=380,bg="white",fg="black",font="Anton 12")
+frame1.place(x=10,y=15)
+
+
+
+
 
 app.mainloop()
