@@ -105,5 +105,8 @@ checkbutton.place(x=200,y=310)
 checkbutton=tk.Checkbutton(app,text="Université",variable=check_var4)
 checkbutton.place(x=97,y=310)
 
+label9=tk.Label(app,text="Grade",font="Anton 11",bg="white")
+label9.place(x=7,y=333)
+
 
 app.mainloop()
