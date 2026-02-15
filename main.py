@@ -46,4 +46,7 @@ label2.place(x=3,y=43)
 
 #Prof ! Ceci je le note juste pour signaler certaines modifications au code, plus j'avance et je rentre parfois en arrière pour modifier certains détails comme la couleur, ou la position de la zone1 par exemple
 
+zone2=tk.Entry(frame1,bg="white")
+zone2.place(x=110,y=50)
+
 app.mainloop()
