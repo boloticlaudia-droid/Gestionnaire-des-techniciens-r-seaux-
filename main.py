@@ -71,5 +71,8 @@ label5.place(x=3,y=148)
 zone5=tk.Entry(frame1,bg="white")
 zone5.place(x=78,y=151)
 
+label6=tk.Label(frame1,text="Niveau d'étude",font="Anton 11",bg="white")
+label6.place(x=3,y=182)
+
 
 app.mainloop()
