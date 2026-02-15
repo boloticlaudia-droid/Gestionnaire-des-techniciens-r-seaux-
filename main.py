@@ -40,7 +40,7 @@ label1=tk.Label(frame1,text="Nom",font="Anton 11",bg="white")
 label1.place(x=3,y=7)
 
 zone1=tk.Entry(frame1,bg="white")
-zone1.place(x=70,y=12)
+zone1.place(x=78,y=12)
 
 
 label2=tk.Label(frame1,text="Prénom",font="Anton 11",bg="white")
@@ -49,13 +49,13 @@ label2.place(x=3,y=43)
 #Prof ! Ceci je le note juste pour signaler certaines modifications au code, plus j'avance et je rentre parfois en arrière pour modifier certains détails comme la couleur, ou la position de la zone1 par exemple
 
 zone2=tk.Entry(frame1,bg="white")
-zone2.place(x=70,y=46)
+zone2.place(x=78,y=46)
 
 label3=tk.Label(frame1,text="Age",font="Anton 11",bg="white")
 label3.place(x=3,y=77)
 
 zone3=tk.Entry(frame1,bg="white")
-zone3.place(x=70,y=82)
+zone3.place(x=78,y=82)
 
 label4=tk.Label(frame1,text="Sexe",font="Anton 11",bg="white")
 label4.place(x=3,y=109)
