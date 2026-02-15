@@ -82,6 +82,7 @@ label7.place(x=7,y=247)
 
 #Je fais ce commentaire juste pour dire que j'ai apporté des modifications pour raison de beauté
 
-
+zone7=tk.Entry(app,bg="white")
+zone7.place(x=120,y=250)
 
 app.mainloop()
