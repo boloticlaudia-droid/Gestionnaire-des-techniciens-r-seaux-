@@ -52,4 +52,7 @@ zone2.place(x=110,y=50)
 label3=tk.Label(frame1,text="Age",font="Anton 18",bg="gray")
 label3.place(x=3,y=77)
 
+zone3=tk.Entry(frame1,bg="white")
+zone3.place(x=110,y=85)
+
 app.mainloop()
