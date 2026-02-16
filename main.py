@@ -120,4 +120,7 @@ zone10.place(x=120,y=375)
 label11=tk.Label(app,text="Adresse mail",font="Anton 11",bg="white")
 label11.place(x=7,y=410)
 
+zone11=tk.Entry(app,bg="white")
+zone11.place(x=120,y=413)
+
 app.mainloop()
