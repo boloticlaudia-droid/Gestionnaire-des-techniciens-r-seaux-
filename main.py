@@ -143,6 +143,9 @@ buton4=tk.Button(app,text="Afficher",width=15)
 buton4.place(x=150,y=530)
 
 buton5=tk.Button(app,text="Rechercher",width=35)
-buton5.place(x=7,y=570)
+buton5.place(x=7,y=576)
+
+frame2=tk.LabelFrame(app,bg="white",height=600,width=900)
+frame2.place(x=300,y=3)
 
 app.mainloop()
