@@ -2,18 +2,16 @@ import tkinter as tk
 import sqlite3
 from tkinter import ttk 
 
-
-connexion=sqlite3.connect("Techniciens.db")
-
-curseur=connexion.cursor()
+connexion = sqlite3.connect("techniciens.db")
+curseur = connexion.cursor()
 
 curseur.execute("""
 CREATE TABLE IF NOT EXISTS techniciens (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nom TEXT NOT NULL,
     prenom TEXT NOT NULL,
+    sexe TEXT CHECK(sexe IN ('H','F')) NOT NULL,
     age INTEGER,
-    sexe TEXT CHECK(sexe IN ('HOMME','FEMME')) NOT NULL,
     specialite TEXT,
     niveau_etude TEXT,
     experience INTEGER,
@@ -21,13 +19,16 @@ CREATE TABLE IF NOT EXISTS techniciens (
     grade TEXT,
     telephone TEXT NOT NULL,
     email TEXT,
-    ville TEXT
+    ville TEXT,
+    date_enregistrement TEXT
 )
 """)
 
 connexion.commit()
-
 connexion.close()
+
+
+
 
 app=tk.Tk()
 app.geometry("800x600")
