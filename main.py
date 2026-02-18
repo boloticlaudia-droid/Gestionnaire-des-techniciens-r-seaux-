@@ -92,28 +92,28 @@ label8.place(x=7,y=287)
 zone8=tk.Entry(app,bg="white")
 zone8.place(x=120,y=290)
 
+
+label9=tk.Label(app,text="Grade",font="Anton 11")
+label9.place(x=7,y=330)
+
 check_var1=tk.IntVar()
 check_var2=tk.IntVar()
 check_var3=tk.IntVar()
 check_var4=tk.IntVar()
 
-checkbutton=tk.Checkbutton(app,text="Entreprise",variable=check_var1)
-checkbutton.place(x=97,y=400)
+checkbutton=tk.Checkbutton(app,text="Junior",variable=check_var1)
+checkbutton.place(x=97,y=320)
 
-checkbutton=tk.Checkbutton(app,text="Banque",variable=check_var2)
-checkbutton.place(x=200,y=400)
+checkbutton=tk.Checkbutton(app,text="Intermédiaire",variable=check_var2)
+checkbutton.place(x=200,y=320)
 
-checkbutton=tk.Checkbutton(app,text="Télécom",variable=check_var3)
-checkbutton.place(x=200,y=400)
+checkbutton=tk.Checkbutton(app,text="Sénior",variable=check_var3)
+checkbutton.place(x=200,y=340)
 
-checkbutton=tk.Checkbutton(app,text="Université",variable=check_var4)
-checkbutton.place(x=97,y=400)
+checkbutton=tk.Checkbutton(app,text="Chef d'équipe",variable=check_var4)
+checkbutton.place(x=97,y=340)
 
-label9=tk.Label(app,text="Grade",font="Anton 11")
-label9.place(x=7,y=335)
 
-zone9=tk.Entry(app,bg="white")
-zone9.place(x=120,y=338)
 
 label10=tk.Label(app,text="Téléphone",font="Anton 11")
 label10.place(x=7,y=372)
