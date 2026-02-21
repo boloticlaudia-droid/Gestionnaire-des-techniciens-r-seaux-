@@ -162,4 +162,5 @@ liste.bind("<<TreeviewSelect>>")
 
 
 
-app.mainloop()
+app.mainloop() 
+#Modification faite par claudia
